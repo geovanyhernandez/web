@@ -1,0 +1,115 @@
+body
+{
+	background: #222;
+	color: #EEE;
+	font-family: "Open Sans", Arial;
+	font-size: 16px;
+	text-align: center;
+}
+
+nav ul 
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li a
+{
+	background: #D23D15;
+	border-radius: 0.5em;
+	color: white;
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+#cochecito
+{
+	background: white;
+	color: #222;
+	text-align: left;
+	width: 50%;
+}
+#cochecito figcaption
+{
+	margin: 1em;
+}
+#cochecito img
+{
+	width: 100%;
+}
+#cochecito
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#personalizacion
+{
+	background: rgba(0,0,0,0.8);
+	border-radius: 0.5em;
+	box-shadow: rgba(255,255,255,0.2) 5px 5px 10px inset;
+	display: inline-block;
+	height: 0;
+	margin: 0 0 6em 2%;
+	padding: 1em 1em 0;
+	opacity: 0;
+	overflow: hidden;
+	transition: all 1s ease;
+	vertical-align: top;
+	width: 0%;
+} 
+#personalizacion 
+{
+	background: rgba(255,255,255,0.9);
+	border-radius: 0.5em;
+	margin: 0 0 1em 0;
+	padding: 0.5em;
+	color: #333;
+}
+
+#personalizacion #color div
+{
+	border: 3px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	height: 2em;
+	margin: 0.5em 1%;
+	opacity: 0.8;
+	transition: all 0.5s ease;
+	vertical-align: top;
+	width: 27%;
+}
+#personalizacion #color div:hover
+{
+	border: 3px solid black;
+	opacity: 1;
+	transform: scale(1.1);
+}
+#personalizacion #color #amarillo
+{
+	background: #EEA024;
+}
+#personalizacion #color #azul
+{
+	background: #166CEB;
+}
+#personalizacion #color #blanco
+{
+	background: #DCDCDC;
+}
+#personalizacion #color #negro
+{
+	background: #121212;
+}
+#personalizacion #color #rojo
+{
+	background: #9F001C;
+}
+#personalizacion #color #verde
+{
+	background: #6CB944;
+}
